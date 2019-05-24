@@ -3,12 +3,12 @@
 //***********************************************************
 // 0 = off | 1 = warn | 2 = error
 //***********************************************************
-require("eslint-config-prettier");
-require("eslint-plugin-immutable");
-require("eslint-plugin-prettier");
-require("eslint-plugin-react");
-require("@typescript-eslint/eslint-plugin");
-require("@typescript-eslint/parser");
+// require("eslint-config-prettier");
+// require("eslint-plugin-immutable");
+// require("eslint-plugin-prettier");
+// require("eslint-plugin-react");
+// require("@typescript-eslint/eslint-plugin");
+// require("@typescript-eslint/parser");
 
 module.exports = {
   parser: require.resolve("@typescript-eslint/parser"), // Specifies the ESLint parser
