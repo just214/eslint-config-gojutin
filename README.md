@@ -1,8 +1,8 @@
 # eslint-config-gojutin
 
-### Baseline eslint config for React/TypeScript projects.
+### ESLint (with TSLint) config for React/TypeScript projects.
 
-## Installation
+## Install as a dev dependency
 
     $ npm install -D eslint-config-gojutin
     or
@@ -17,7 +17,6 @@ Once the `eslint-config-gojutin` package is installed, you can use it by specify
 {
   "extends": "gojutin",
   "rules": {
-    // Additional, per-project rules...
   }
 }
 ```

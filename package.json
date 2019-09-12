@@ -12,7 +12,7 @@
     "url": "git+ssh://git@github.com/gojutin/eslint-config-gojutin.git"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">= 6"
   },
   "license": "MIT",
   "keywords": [
@@ -36,7 +36,10 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "tslint": "^5.20.0",
-    "tslint-immutable": "^6.0.1"
+    "tslint-immutable": "^6.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^6.3.0",
@@ -48,5 +51,4 @@
     "typescript": ">=3.4.5",
     "prettier": ">=1.18.2"
   }
-
 }

@@ -11,7 +11,7 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "tsconfig.json",
-    ecmaVersion: 2018,
+    ecmaVersion: 2019,
     sourceType: "module",
     ecmaFeatures: {
       jsx: true
@@ -42,7 +42,7 @@ module.exports = {
   rules: {
     strict: 2,
     "react/prop-types": 0, // Disable prop-types as we use TypeScript for type checking
-    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-function-return-type": 1,
     "@typescript-eslint/indent": 0,
     "@typescript-eslint/no-unused-vars": 2,
     "@typescript-eslint/no-this-alias": 2,
@@ -83,7 +83,6 @@ module.exports = {
       2,
       {
         rulesDirectory: ["node_modules/tslint-immutable/rules"],
-
         rules: {
           "comment-format": [true, "check-space"],
           "jsdoc-format": [true, "check-multiline-start"],
