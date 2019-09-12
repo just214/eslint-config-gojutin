@@ -1,34 +1,52 @@
 {
   "name": "eslint-config-gojutin",
-  "version": "0.0.1",
-  "description": "Testing ESLint custom config.",
-  "license": "MIT",
-  "repository": "aps/eslint-config-gojutin",
-  "author": "Google",
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "version": "0.0.2",
+  "description": "Coding conventions for React/TypeScript projects.",
+  "author": "@gojutin",
+  "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "eslint ."
   },
-  "files": [
-    "index.js"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gojutin/eslint-config-gojutin.git"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "gojutin",
+    "javascript",
+    "react",
+    "typescript",
+    "styleguide"
   ],
+  "bugs": {
+    "url": "https://github.com/gojutin/eslint-config-gojutin/issues"
+  },
+  "homepage": "https://github.com/gojutin/eslint-config-gojutin#readme",
   "dependencies": {
-    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-prettier": "^6.2.0",
     "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.13.0",
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "@typescript-eslint/parser": "^1.9.0"
+    "eslint-plugin-react": "^7.14.3",
+    "tslint": "^5.20.0",
+    "tslint-immutable": "^6.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-watch": "^5.1.2",
-    "typescript": "^3.4.5"
+    "eslint": "^2.x",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.2"
   },
   "peerDependencies": {
     "eslint": ">=5.16.0",
-    "typescript": ">=3.4.5"
+    "typescript": ">=3.4.5",
+    "prettier": ">=1.18.2"
   }
+
 }
