@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gojutin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Coding conventions for React/TypeScript projects.",
   "author": "@gojutin",
   "main": "index.js",

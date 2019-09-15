@@ -42,7 +42,7 @@ module.exports = {
   rules: {
     strict: 2,
     "react/prop-types": 0, // Disable prop-types as we use TypeScript for type checking
-    "@typescript-eslint/explicit-function-return-type": 1,
+    "@typescript-eslint/explicit-function-return-type": 0, // Fails with Forward Ref
     "@typescript-eslint/indent": 0,
     "@typescript-eslint/no-unused-vars": 2,
     "@typescript-eslint/no-this-alias": 2,
@@ -113,7 +113,7 @@ module.exports = {
               multiline: {
                 objects: "always",
                 arrays: "always",
-                functions: "never",
+                functions: "always",
                 typeLiterals: "ignore"
               }
             }
