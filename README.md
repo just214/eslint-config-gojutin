@@ -1,13 +1,12 @@
 # eslint-config-gojutin
 
-### ESLint (with TSLint) config for React/TypeScript projects.
+### ESLint (with TSLint and Prettier) config for React/TypeScript projects.
 
 ## Install as a dev dependency
 
     $ npm install -D eslint-config-gojutin
     or
     $ yarn add -D eslint-config-gojutin
-
 
 ## Usage
 
@@ -16,8 +15,7 @@ Once the `eslint-config-gojutin` package is installed, you can use it by specify
 ```json
 {
   "extends": "gojutin",
-  "rules": {
-  }
+  "rules": {}
 }
 ```
 
@@ -34,7 +32,9 @@ The rules are listed as key/value pairs. The key represents the rule name and th
 `2`: error
 
 Here is an example of a rule:
+
 ```
 "immutable/no-this": 2
 ```
-This particular rule disallows the use of the `this` keyword, which will result in an error. 
+
+This particular rule disallows the use of the `this` keyword, which will result in an error.

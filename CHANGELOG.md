@@ -1,6 +1,13 @@
+## `0.0.6`
+
+### 09-17-2019
+
+- Added `tslint-react` rules.
+- Seperated TypeScript and React configuration into seperate directories.
+
 ## `0.0.5`
 
-### 09-15-2019
+### 09-16-2019
 
 - Turned off trailing comma requirement for functions and arrays.
 - Removed JS override config.

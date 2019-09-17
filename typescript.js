@@ -24,24 +24,15 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended",
-    "plugin:jsx-a11y/recommended",
     "prettier",
     "prettier/@typescript-eslint",
   ],
-  plugins: [
-    "@typescript-eslint",
-    "@typescript-eslint/tslint",
-    "react",
-    "immutable",
-    "jsx-a11y",
-  ],
+  plugins: ["@typescript-eslint", "@typescript-eslint/tslint", "immutable"],
   rules: {
     strict: 2,
-    "react/prop-types": 0, // Disable prop-types as we use TypeScript for type checking
     "@typescript-eslint/explicit-function-return-type": 0, // Fails with Forward Ref
     "@typescript-eslint/indent": 0,
     "@typescript-eslint/no-unused-vars": 2,
@@ -82,23 +73,8 @@ module.exports = {
     "@typescript-eslint/tslint/config": [
       2,
       {
-        rulesDirectory: [
-          "node_modules/tslint-immutable/rules",
-          "node_modules/tslint-react/rules",
-        ],
+        rulesDirectory: ["node_modules/tslint-immutable/rules"],
         rules: {
-          // tslint-react rules
-          "jsx-wrap-multiline": false,
-          "jsx-no-multiline-js": true,
-          "jsx-boolean-value": true,
-          "jsx-curly-spacing": true,
-          "jsx-equals-spacing": true,
-          "jsx-key": true,
-          "jsx-no-bind": true,
-          "jsx-no-lambda": true,
-          "jsx-no-string-ref": true,
-          "jsx-self-close": true,
-          "jsx-space-before-trailing-slash": true,
           // tslint-immutable rules
           "comment-format": [true, "check-space"],
           "jsdoc-format": [true, "check-multiline-start"],
