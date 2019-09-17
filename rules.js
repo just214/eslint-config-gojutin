@@ -112,8 +112,8 @@ module.exports = {
             {
               multiline: {
                 objects: "always",
-                arrays: "always",
-                functions: "always",
+                arrays: "ignore",
+                functions: "ignore",
                 typeLiterals: "ignore"
               }
             }
@@ -129,13 +129,5 @@ module.exports = {
         }
       }
     ]
-  },
-  overrides: [
-    {
-      files: ["*.js"],
-      rules: {
-        "@typescript-eslint/no-var-requires": 0
-      }
-    }
-  ]
+  }
 };

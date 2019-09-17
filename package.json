@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gojutin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Coding conventions for React/TypeScript projects.",
   "author": "@gojutin",
   "main": "index.js",
@@ -37,9 +37,9 @@
     "eslint-plugin-react": "^7.14.3",
     "tslint": "^5.20.0",
     "tslint-immutable": "^6.0.1",
-    "@typescript-eslint/eslint-plugin": "^2.2.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^2.2.0",
-    "@typescript-eslint/parser": "^2.2.0"
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0"
   },
   "devDependencies": {
     "eslint": "^6.3.0",
