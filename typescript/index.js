@@ -2,27 +2,8 @@
 // * 0 = off | 1 = warn | 2 = error
 //***********************************************************
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    node: true,
-    commonjs: true,
-  },
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    project: "./tsconfig.json",
-    ecmaVersion: 2019,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  settings: {
-    react: {
-      version: "detect",
-    },
-  },
   extends: [
+    "./shared/defaultConfig.js",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
