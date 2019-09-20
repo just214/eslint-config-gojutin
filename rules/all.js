@@ -3,7 +3,7 @@
 //***********************************************************
 module.exports = {
   extends: [
-    "./shared/defaultConfig.js",
+    "./config.js",
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",

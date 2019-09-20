@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports = require("./rules.js");
+module.exports = require("./rules/all.js");
