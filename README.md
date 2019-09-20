@@ -80,7 +80,7 @@ For TypeScript only:
 
 ## Overwriting Rules
 
-Any rule that is included with this library can be easily overwritten using the `rules` property in your `eslint.rc` file:
+Any rule that is included with this library can be easily overwritten using the `rules` property in your `.eslintrc` or `.eslintrc.js` file:
 
 ```json
 {
