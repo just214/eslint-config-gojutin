@@ -64,7 +64,7 @@ For TypeScript + React:
 
 ```json
 {
-  "extends": "gojutin",
+  "extends": ["gojutin"],
   "rules": {}
 }
 ```
@@ -73,7 +73,7 @@ For TypeScript only:
 
 ```json
 {
-  "extends": "gojutin/typescript",
+  "extends": ["gojutin/typescript"],
   "rules": {}
 }
 ```
@@ -84,7 +84,7 @@ Any rule that is included with this library can be easily overwritten using the 
 
 ```json
 {
-  "extends": "gojutin",
+  "extends": ["gojutin"],
   "rules": {
     "immutable/no-this": 0
   }

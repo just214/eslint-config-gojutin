@@ -3,7 +3,7 @@
 //***********************************************************
 module.exports = {
   extends: [
-    "./config.js",
+    "./rules/base.js",
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
@@ -52,7 +52,7 @@ module.exports = {
     "@typescript-eslint/no-var-requires": 2,
     "@typescript-eslint/prefer-for-of": 2,
     "@typescript-eslint/prefer-function-type": 2,
-    "@typescript-eslint/prefer-interface": 0, // Nothing wrong with a type alias!
+    "@typescript-eslint/prefer-interface": 0, // Allow type aliases
     "@typescript-eslint/prefer-namespace-keyword": 2,
     "@typescript-eslint/tslint/config": [
       2,
@@ -171,9 +171,9 @@ module.exports = {
     "quote-props": 0,
     radix: 2,
     "react-hooks/exhaustive-deps": 1,
-    "react-hooks/rules-of-hooks": 2, // Disable prop-types as we use TypeScript for type checking
+    "react-hooks/rules-of-hooks": 2,
     "react/jsx-props-no-spreading": 2,
-    "react/prop-types": 0,
+    "react/prop-types": 0, // Unnecessary as we use TypeScript for type definitions
     "sort-keys": 0,
     "space-before-function-paren": 0,
     strict: 2,

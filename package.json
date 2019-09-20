@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-gojutin",
-  "version": "0.0.14",
-  "description": "ESLint configurations for React/TypeScript projects.",
+  "version": "0.0.16",
+  "description": "ESLint configurations for immutable React/TypeScript projects.",
   "author": "@gojutin",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
