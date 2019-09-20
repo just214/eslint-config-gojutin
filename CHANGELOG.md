@@ -1,3 +1,11 @@
+## `0.0.7` - `0.0.13`
+
+### 09-19-2019
+
+- Added rules for React Hooks, Jest, and import statements.
+- Modified default rules.
+- Added support for TypeScript-only rules.
+
 ## `0.0.6`
 
 ### 09-17-2019
