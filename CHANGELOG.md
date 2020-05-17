@@ -1,3 +1,7 @@
+## `0.1.0`
+
+- Fixed missing peer dependencies.
+
 ## `0.0.18`
 
 - Updated documentation

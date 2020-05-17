@@ -18,8 +18,7 @@ In an `.eslintrc` or `.eslintrc.js` file:
 
 ```json
 {
-  "extends": ["gojutin"],
-  "rules": {}
+  "extends": ["gojutin"]
 }
 ```
 
@@ -31,7 +30,7 @@ Any rule that is included with this library can be easily overwritten using the 
 {
   "extends": ["gojutin"],
   "rules": {
-    "name-of-rule": "off"
+    "functional/no-mixed-type": "error"
   }
 }
 ```
