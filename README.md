@@ -6,8 +6,6 @@
 
 ### ESLint configurations for immutable React/TypeScript projects.
 
-This project includes a combination of **ESLint** and **TSLint** rules for React and TypeScript code. Many of the rules favor a functional style with a strong emphasis on immutability and strong type definitions.
-
 ## Features
 
 - TypeScript (ESLint + TSLint)
@@ -65,15 +63,6 @@ For TypeScript + React:
 ```json
 {
   "extends": ["gojutin"],
-  "rules": {}
-}
-```
-
-For TypeScript only:
-
-```json
-{
-  "extends": ["gojutin/typescript"],
   "rules": {}
 }
 ```

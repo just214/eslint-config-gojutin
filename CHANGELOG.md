@@ -1,3 +1,8 @@
+## `0.0.17`
+
+- Removed TSLint configuration.
+- Updated to extend from `react-app`.
+
 ## `0.0.7` - `0.0.16`
 
 ### 09-20-2019
