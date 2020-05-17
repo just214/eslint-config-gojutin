@@ -1,3 +1,7 @@
+## `0.1.1`
+
+- Most peer dependencies are now dependencies.
+
 ## `0.1.0`
 
 - Fixed missing peer dependencies.

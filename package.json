@@ -29,11 +29,9 @@
     "url": "https://github.com/gojutin/eslint-config-gojutin/issues"
   },
   "homepage": "https://github.com/gojutin/eslint-config-gojutin#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
     "@typescript-eslint/parser": "^2.3.2",
-    "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "^5.0.3",
@@ -45,27 +43,16 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.15.1",
     "eslint-plugin-react-hooks": "^2.1.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.18.2",
-    "typescript": "^3.6.2"
+    "eslint-plugin-standard": "^4.0.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=2.33.0",
-    "@typescript-eslint/parser": ">=2.33.0",
-    "eslint": ">=7.0.0",
-    "eslint-plugin-flowtype": ">=5.0.3",
-    "eslint-plugin-functional": ">=3.0.1",
-    "eslint-config-prettier": ">=6.11.0",
-    "eslint-config-react-app": ">=5.2.1",
-    "eslint-plugin-immutable": ">=1.0.0",
-    "eslint-plugin-import": ">=2.20.2",
-    "eslint-plugin-jest": ">=23.13.0",
-    "eslint-plugin-jsx-a11y": ">=6.2.3",
-    "eslint-plugin-prettier": ">=3.1.3",
-    "eslint-plugin-react": ">=7.20.0",
-    "eslint-plugin-react-hooks": ">=4.0.2",
-    "eslint-plugin-standard": ">=4.0.1",
-    "prettier": ">=2.0.5",
-    "typescript": ">=3.9.2"
+    "eslint": ">=5.0.0",
+    "prettier": ">=2.0.0",
+    "typescript": ">=3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.2"
   }
 }

@@ -9,7 +9,7 @@
 ## Installation
 
 ```sh
-npx install-peerdeps --dev eslint-config-gojutin
+npm install --dev eslint-config-gojutin eslint typescript prettier
 ```
 
 ## Usage
