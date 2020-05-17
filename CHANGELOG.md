@@ -1,3 +1,7 @@
+## `0.0.18`
+
+- Updated documentation
+
 ## `0.0.17`
 
 - Removed TSLint configuration.
