@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gojutin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ESLint configuration for React/TypeScript projects with a functional flavor.",
   "author": "Justin Wilkerson <gojutin@gmail.com>",
   "main": "index.js",
