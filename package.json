@@ -5,54 +5,85 @@
   "author": "Justin Wilkerson <gojutin@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "format": "prettier --write *.js",
+    "lint": "eslint *.js",
+    "test": "npm run lint",
+    "release": "np --no-publish"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/gojutin/eslint-config-gojutin.git"
   },
   "engines": {
-    "node": ">= 6"
+    "node": "^10.12.0 || >=12.0.0"
   },
   "license": "MIT",
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "config",
-    "gojutin",
-    "javascript",
-    "react",
-    "typescript",
-    "styleguide"
-  ],
   "bugs": {
     "url": "https://github.com/gojutin/eslint-config-gojutin/issues"
   },
   "homepage": "https://github.com/gojutin/eslint-config-gojutin#readme",
   "dependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "react",
+    "typescript",
+    "styleguide"
+  ],
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
     "@typescript-eslint/parser": "^2.3.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-config-react-app": "^5.2.1",
-    "eslint-plugin-flowtype": "^5.0.3",
-    "eslint-plugin-functional": "^3.0.1",
-    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-functional": "^3.0.2",
+    "eslint-plugin-immutable": ">=1.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.15.1",
     "eslint-plugin-react-hooks": "^2.1.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.2"
   },
   "peerDependencies": {
-    "eslint": ">=5.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "babel-eslint": "^10.0.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": ">=6.12.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-functional": "^3.0.0",
+    "eslint-plugin-immutable": ">=1.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": ">=24.0.0",
+    "eslint-plugin-jsx-a11y": ">=6.3.0",
+    "eslint-plugin-prettier": ">=3.1.0",
+    "eslint-plugin-react": ">=7.21.0",
+    "eslint-plugin-react-hooks": ">=4.1.0",
+    "eslint-plugin-standard": ">=4.0.0",
     "prettier": ">=2.0.0",
-    "typescript": ">=3.0.0"
+    "typescript": ">=4.0.0"
   },
-  "devDependencies": {
-    "eslint": "^7.0.0",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.2"
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
