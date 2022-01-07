@@ -8,13 +8,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@pika/react": "^16.13.1",
-    "@pika/react-dom": "^16.13.1",
-    "@types/react": "^16.9.48",
-    "@types/react-dom": "^16.9.8"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.1",
-    "vite-plugin-react": "^3.0.0"
+    "vite": "^2.7.10",
+    "vite-plugin-react": "^4.0.1"
   }
 }
